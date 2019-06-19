@@ -1,0 +1,241 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+header {
+	background-color: darkslateblue;
+	height: 180px;
+	font-size: 0.8pm;
+	margin-left: 0;
+	margin-right: 0;
+	min-width: 900px;
+	
+}
+
+.main, .logo, .menubar, .siteContent, .footer {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo {
+	width: 880px;
+	padding-bottom: : 40px;
+	/*margin: -20px -20px -20px -20px*/
+}
+.logo h1, .logo h2 {
+	font: normal 300%; 'centry gothic', arial, sans-serif;
+	margin: 0 0 0 9px;
+}
+.logoText h1, .logoText h1 a, .logoText h1 a:hover {
+ padding: 22px 0 0 0;
+ color: #fff;
+ letter-spacing: 0.1em;
+ text-decoration: none;
+}
+
+.logoText h2 {
+	font-size: 0.9em;
+	padding: 4px 0 0 0;
+	color: #999;
+
+}
+
+.menubar {
+	margin-top:50px ; 
+	width: 300px;
+	height: 46px;
+}
+ul.menu {
+	float: right;
+	color: black;
+
+}
+
+ul.menu li {
+	float: left;
+	padding: 0 0 0 9px;
+	list-style: none;
+	margin: 1px 2px 0 0;
+}
+
+ul.menu li a  {
+	font: normal 100% 'trebuchet ms', sans-serif;
+	display: block;
+	height: 20px
+	padding: 6px 35px 5 px 28px;
+	color: #fff;
+	text-decoration: none;
+}
+
+ul.menu li.selected {
+	color: #aeb002;
+	background-color: #f0f;
+}
+
+ul.menu li a:hover {
+	color: #e4ec04;
+}
+
+.ppp {
+	background-color: red;
+}
+
+#ppp1 {
+	color: black;
+}
+
+p#ppp2 {
+	color: blue;
+}
+.tableColor {
+	background: red;
+}
+
+article>p {
+	color:red;
+}
+
+article p {
+	color: blue ;
+
+}
+
+p, ul{
+	color:blue;
+}
+
+ul li {
+	color: red;
+}
+a {
+	border: 1px bold black;
+}
+a:link {
+	color:green ;
+	border: 3px dotted #333;
+	
+}
+
+a:visited {
+	color:black ;
+}
+a:hover {
+	color: red ;
+	font: italic 900 16px/20px Tahoma; /*сокращенная запись*/
+}
+a:active {
+	color:white ;
+	font: italic 900 16px Tahoma; /*сокращенная запись*/
+}
+
+p {
+	margin: 10px;
+	/*font-style: italic; /*курсив*/
+	/*font-weight: 900; /*normal || bold || 100-900*/
+	font-size: 16px; /*100% 1em 16px 12pt medium */
+	/*line-height: 150%; /*расстояние между строками*/
+	font-family: arial, sans-serif,  "courier new"; /*шрифт*/ 
+	 
+	
+	/*text-decoration: overline; /*underline | overline | line-through | none */
+	text-align: left; /*выравнивание left | right |	center | justify 0*/
+	text-indent: 20px; /*абзац, отступ от края*/
+	line-height: 150%; /*расстояние между строками*/
+	/*word-spacing: 12px; /*интревал между словами*/
+	letter-spacing: normal;/*между буквами*/
+	/*text-transform: capitalize; /*uppercase | lowercase | capitalize*/
+} 
+ul {
+	margin: 10px;
+	list-style-position: inside;
+	list-style-image: url(../img/arrow.png);	/*list-style: 1= тут можно задать стандартную нумеровку inside url(../img/arrow.png)*/
+}
+ ul li {
+border: 3px dotted #333;}
+
+.test1 {
+	width: 300px;
+	height: 30px;
+	margin: 10px;
+	padding: 10px;
+	overflow:auto;
+	
+}
+
+ body {
+ 	background-image: url(../img/logo.png);
+	background-repeat: no-repeat; /*repeat*/
+	background-position: 850px 500px;
+	background-attachment: fixed;
+ }
+p, li, {
+	margin: 10px;
+}
+
+textarea {
+	margin: 20px;
+}
+ form {
+ 	font: 11px Verdana, sans-serif;
+ 	width: 600px;
+ 	margin: 10px;
+ }
+
+ form fieldset {
+ 	margin:20px;
+ 	padding: 20px;
+ }
+  form fieldset p {
+  	margin:10px;
+  	text-align: left;
+  }
+  form fieldset legend p label{
+  	margin:20px;
+  }
+  .qustion {
+  	font-weight: bold;
+  }
+
+  fieldset{
+	padding: 0 10px;
+	border: 1px solid #ccc;
+	height: auto;
+	background-color:#fcfcfc ;
+   }
+   textarea {
+   	border: 1px solid #333333;
+   	background-color: #f4f9ff;
+   	width: 560px;
+   	height: 200px;
+   	font: 18px Verdana;
+   	padding: 3px 10px;
+   }
+	textarea:focus {
+	border: 1px solid #1351b4;
+	background-color: #ffffff;
+	}
+
+   br+input {
+   	margin: 10px 0 0 20px; 
+   }
+   .input {
+   	border: 1px solid #333333;
+   	height: 27px;
+   	background-image: url(../img/inputbg.jpg);
+   	background-repeat: repeat-x;
+   	width: 300px;
+   	height: 30px; 
+   	font: 18px Verdana;
+   	padding: 3px 10px;
+   }
+    .input:focus {
+    	border: 1px solid #1351b4;
+    	background:none;
+    	background-color: #ffffff;
+
+    }
+    label {
+    	cursor: pointer;
+    }

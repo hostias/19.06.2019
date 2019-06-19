@@ -1,0 +1,103 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+header {
+	background-color: darkslateblue;
+	height: 180px;
+	font-size: 0.8pm;
+	margin-left: 0;
+	margin-right: 0;
+	min-width: 900px;
+	
+}
+
+.main, .logo, .menubar, .siteContent, .footer {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo {
+	width: 880px;
+	padding-bottom: : 40px;
+	/*margin: -20px -20px -20px -20px*/
+}
+.logo h1, .logo h2 {
+	font: normal 300%; 'centry gothic', arial, sans-serif;
+	margin: 0 0 0 9px;
+}
+.logoText h1, .logoText h1 a, .logoText h1 a:hover {
+ padding: 22px 0 0 0;
+ color: #fff;
+ letter-spacing: 0.1em;
+ text-decoration: none;
+}
+
+.logoText h2 {
+	font-size: 0.9em;
+	padding: 4px 0 0 0;
+	color: #999;
+
+}
+
+.menubar {
+	margin-top:50px ; 
+	width: 300px;
+	height: 46px;
+}
+ul.menu {
+	float: right;
+	color: black;
+
+}
+
+ul.menu li {
+	float: left;
+	padding: 0 0 0 9px;
+	list-style: none;
+	margin: 1px 2px 0 0;
+}
+
+ul.menu li a  {
+	font: normal 100% 'trebuchet ms', sans-serif;
+	display: block;
+	height: 20px
+	padding: 6px 35px 5 px 28px;
+	color: #fff;
+	text-decoration: none;
+}
+
+ul.menu li.selected {
+	color: #aeb002;
+	background-color: #f0f;
+}
+
+ul.menu li a:hover {
+	color: #e4ec04;
+}
+
+.ppp {
+	background-color: red;
+}
+
+#ppp1 {
+	color: black;
+}
+
+p#ppp2 {
+	color: blue;
+}
+.tableColor {
+	background: red;
+}
+
+article>p {
+	color:red;
+}
+
+article p {
+	color: blue ;
+
+}
